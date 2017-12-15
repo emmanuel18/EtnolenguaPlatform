@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<title>Etnolengua</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+	<!-- =======================================================
+    Theme Name: Maxim
+    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+    Author: Emmanuel Estrada
+    Author URL: https://emmanuel18.github.io/
+	======================================================= -->
+	<script type="text/javascript">
+//<![CDATA[
+var audios = new Array();
+function rep(elaudio){
+
+audios=document.getElementsByTagName('audio');
+var i;
+for (i=0; i<audios.length; i++) {
+if (audios[i].id==elaudio){
+audios[i].load();
+audios[i].play();
+}else{
+audios[i].pause();
+}
+}
+
+}
+//]]>
+</script>
+</head>
+<body>
+<!--audios -->
+<audio preload="auto" id="n1">
+	<source src="sounds/1.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n2">
+	<source src="sounds/2.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n3">
+	<source src="sounds/3.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n4">
+	<source src="sounds/4.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n5">
+	<source src="sounds/5.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n6">
+	<source src="sounds/6.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n7">
+	<source src="sounds/7.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n8">
+	<source src="sounds/8.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n9">
+	<source src="sounds/9.mp3" type="audio/mp3">
+</audio>
+<audio preload="auto" id="n10">
+	<source src="sounds/10.mp3" type="audio/mp3">
+</audio>
+	<!-- navbar -->
+	<div class="navbar-wrapper">
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<!-- Responsive navbar -->
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</a>
+					<h1 class="brand"><a href="index.html" > Etnolengua  </a></h1>
+					<!-- navigation -->
+					<nav class="pull-right nav-collapse collapse">
+						<ul id="menu-main" class="nav">
+							<li><a title="blog" href="index.html">Inicio</a></li>
+							<li><a title="services" href="blog.html">Historia</a></li>
+							<li><a title="works" href="translate.php">Diccionario</a></li>
+							
+							<li><a title="team" href="index.html#about">¿Quiénes somos?</a></li>
+							
+							
+							
+							<li><a title="contact" href="index.html#contact">Contácto</a></li>
+							<!-- <li><a href="page.html">Page</a></li> -->
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- section: works -->
+	<section id="works" class="section">
+		<div class="container clearfix">
+			<h4>Números</h4>
+			<!-- portfolio filter 
+			<div class="row">
+				<div id="filters" class="span12">
+					<ul class="clearfix">
+						<li>
+							<a href="#" data-filter="*" class="active">
+								<h5>All</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".web">
+								<h5>Web</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".print">
+								<h5>Print</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".design">
+								<h5>Design</h5>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-filter=".photography">
+								<h5>Photography</h5>
+							</a>
+						</li>
+					</ul>
+				</div>
+				 
+			</div>
+			END PORTFOLIO FILTERING -->
+			<div class="row">
+				<div class="span12">
+					<div id="portfolio-wrap">
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print photography" onclick="rep('n1');">
+							<div class="portfolio" onclick="rep('n1');">
+								<a href="img/works/11.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/1.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n1');">
+							<div class="thumb-info">
+								<h5>Tu'uk <br>/tu•uk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print design web">
+							<div class="portfolio" onclick="rep('n2');">
+								<a href="img/works/22.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/2.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n2');">
+							<div class="thumb-info">
+								<h5>Metsk<br>/metsk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid print design">
+							<div class="portfolio">
+								<a href="img/works/33.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/3.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n3');">
+							<div class="thumb-info">
+								<h5>Tëkëëk <br>
+/təkə:k/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="img/works/44.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/4.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n4');">
+							<div class="thumb-info">
+								<h5>Mataaxk <br>
+/mada:ʂk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="img/works/55.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/5.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n5');">
+							<div class="thumb-info">
+								<h5>Mokooxk <br>
+/modo:ʂk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="img/works/66.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/6.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n6');">
+							<div class="thumb-info">
+								<h5>Tutujk <br>
+/tudujk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="img/works/77.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/7.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n7');">
+							<div class="thumb-info">
+								<h5>Juxtujk <br>
+/huʂtujk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography">
+							<div class="portfolio">
+								<a href="img/works/88.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/8.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n8');">
+							<div class="thumb-info">
+								<h5>Tuktujk <br>
+/huktujk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid photography web">
+							<div class="portfolio">
+								<a href="img/works/99.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/9.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n9');">
+							<div class="thumb-info">
+								<h5>Taaxtujk <br>
+/ta:ʂtujk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+						<!-- portfolio item -->
+						<div class="portfolio-item grid design web">
+							<div class="portfolio">
+								<a href="img/works/101.png" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
+						<img src="img/works/10.png" alt="" />
+						<div class="portfolio-overlay" onclick="rep('n10');">
+							<div class="thumb-info">
+								<h5>Majk <br>
+/majk/</h5>
+								<i class="icon-plus icon-2x"></i>
+							</div>
+						</div>
+						</a>
+							</div>
+						</div>
+						<!-- end portfolio item -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="span6 offset3">
+					<ul class="social-networks">
+						<li><a href="https://www.facebook.com/Etnolengua/"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+						
+					</ul>
+					<p class="copyright">
+						&copy; Etnolengua. All rights reserved.
+						<div class="credits">
+							<!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
+              -->
+							<a href="https://emmanuel18.github.io/">Desing</a> by Emmanuel Estrada Rincón || Edited by William López Domínguez
+						</div>
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- ./container -->
+	</footer>
+	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.localScroll.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/isotope.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/inview.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
